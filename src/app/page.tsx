@@ -137,9 +137,7 @@ export default function Home() {
           >
             <motion.h1
               className="text-4xl md:text-5xl font-bold text-white mb-2 drop-shadow-lg"
-              animate={{ scale: [1, 1.03, 1] }}
-              transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse", ease: "easeInOut" }}
-            >
+              >
               SkyCast <span className="inline-block animate-pulse">🌤️</span>
             </motion.h1>
             <motion.p
@@ -150,6 +148,7 @@ export default function Home() {
             >
               Check the weather anywhere in the world
             </motion.p>
+            <p className="text-white">Developed by <span className="font-semibold italic ">Team Spark</span></p>
           </motion.div>
   
           {/* SEARCH BAR */}
