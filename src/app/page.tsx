@@ -76,7 +76,7 @@ export default function Home() {
     } finally {
       setLoading(false)
     }
-  }
+  
 
   useEffect(() => {
     const lastCity = localStorage.getItem("lastCity")
@@ -148,7 +148,7 @@ export default function Home() {
             >
               Check the weather anywhere in the world
             </motion.p>
-            <p className="text-white">Developed by <span className="font-semibold italic ">Team Spark</span></p>
+            <p className="text-white">Developed by <span className="font-semibold italic ">Spark</span></p>
           </motion.div>
   
           {/* SEARCH BAR */}
