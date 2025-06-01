@@ -149,7 +149,7 @@ export default function Home() {
             >
               Check the weather anywhere in the world
             </motion.p>
-            <p className="text-white">Developed by <span className="font-semibold italic ">Spark</span></p>
+            <p className="text-white"><span className="font-semibold italic "></span></p>
           </motion.div>
   
           {/* SEARCH BAR */}
